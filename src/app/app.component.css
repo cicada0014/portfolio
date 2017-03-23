@@ -1,0 +1,42 @@
+  
+/*        
+
+  .pin-top {
+    position: relative;
+  }
+
+  .pin-bottom {
+    position: relative;
+  }
+
+  .pinned {
+    position: fixed !important;
+  }*/
+
+  li{
+      width: 20%
+  }
+  /*nav{
+      height: 7vh;
+  }*/
+  .section{
+      background: white;
+      
+  }
+
+  ul>.tab:hover{
+      background: darkgray
+  }
+
+  nav a{
+    font-size: 1.3em;
+  }
+  #modal1{
+    height: 180vh;
+    width: 90%;
+  }
+
+  h3,h4{
+   text-shadow: 2px 3px 2px grey;
+    
+  }
