@@ -13,7 +13,7 @@
     position: fixed !important;
   }*/
 
-  li{
+  nav li{
       width: 20%
   }
   /*nav{
@@ -31,12 +31,18 @@
   nav a{
     font-size: 1.3em;
   }
-  #modal1{
-    height: 180vh;
-    width: 90%;
+  .modal{
+    width: 60%;
+  }
+  .modal li{
+    width: 13%;
   }
 
   h3,h4{
    text-shadow: 2px 3px 2px grey;
     
+  }
+
+  #portfolio td{
+    font-size: 1.1em
   }
