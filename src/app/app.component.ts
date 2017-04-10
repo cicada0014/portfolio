@@ -85,7 +85,7 @@ export class AppComponent {
             animationStep: 5,
             foregroundBorderWidth: 5,
             backgroundBorderWidth: 15,
-            percent: 65
+            percent: 70
           });
         }
       },

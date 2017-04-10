@@ -5,18 +5,15 @@ import { HttpModule } from '@angular/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { PdfViewerComponent } from 'ng2-pdf-viewer';
 @NgModule({
   declarations: [
     AppComponent,
-    // PdfViewerComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     
-    // NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
