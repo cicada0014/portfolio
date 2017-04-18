@@ -5,4 +5,5 @@ html, body {
 
   #index{
       height: 87vh;
+      z-index: 100;
   }

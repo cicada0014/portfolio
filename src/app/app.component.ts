@@ -44,67 +44,67 @@ export class AppComponent {
       }
     );
 
-    var options = [
-      {
-        selector: '#skills', offset: 100, callback: function (el) {
-          $("#circleHTML").circliful({
-            text: "HTML/CSS",
-            animationStep: 5,
-            foregroundBorderWidth: 5,
-            backgroundBorderWidth: 15,
-            percent: 75
-          });
-        }
-      },
-      {
-        selector: '#skills', offset: 110, callback: function (el) {
-          $("#circleJS").circliful({
-            text: "JavaScript",
-            animationStep: 5,
-            foregroundBorderWidth: 5,
-            backgroundBorderWidth: 15,
-            percent: 70
-          });
-        }
-      },
-      {
-        selector: '#skills', offset: 120, callback: function (el) {
-          $("#circleTS").circliful({
-            text: "TypeScript",
-            animationStep: 5,
-            foregroundBorderWidth: 5,
-            backgroundBorderWidth: 15,
-            percent: 65
-          });
-        }
-      },
-      {
-        selector: '#skills', offset: 130, callback: function (el) {
-          $("#circleJAVA").circliful({
-            text: "JAVA",
-            animationStep: 5,
-            foregroundBorderWidth: 5,
-            backgroundBorderWidth: 15,
-            percent: 70
-          });
-        }
-      },
-      {
-        selector: '#skills', offset: 140, callback: function (el) {
-          $("#circleHTTP").circliful({
-            text: "SQL",
-            animationStep: 5,
-            foregroundBorderWidth: 5,
-            backgroundBorderWidth: 15,
-            percent: 50,
-            targetTextSize:17,
-            // animateInView: true
-            title : "test"
-          });
-        }
-      },
-    ];
-    Materialize.scrollFire(options);
+    // var options = [
+    //   {
+    //     selector: '#skills', offset: 100, callback: function (el) {
+    //       $("#circleHTML").circliful({
+    //         text: "HTML/CSS",
+    //         animationStep: 5,
+    //         foregroundBorderWidth: 5,
+    //         backgroundBorderWidth: 15,
+    //         percent: 75
+    //       });
+    //     }
+    //   },
+    //   {
+    //     selector: '#skills', offset: 110, callback: function (el) {
+    //       $("#circleJS").circliful({
+    //         text: "JavaScript",
+    //         animationStep: 5,
+    //         foregroundBorderWidth: 5,
+    //         backgroundBorderWidth: 15,
+    //         percent: 70
+    //       });
+    //     }
+    //   },
+    //   {
+    //     selector: '#skills', offset: 120, callback: function (el) {
+    //       $("#circleTS").circliful({
+    //         text: "TypeScript",
+    //         animationStep: 5,
+    //         foregroundBorderWidth: 5,
+    //         backgroundBorderWidth: 15,
+    //         percent: 65
+    //       });
+    //     }
+    //   },
+    //   {
+    //     selector: '#skills', offset: 130, callback: function (el) {
+    //       $("#circleJAVA").circliful({
+    //         text: "JAVA",
+    //         animationStep: 5,
+    //         foregroundBorderWidth: 5,
+    //         backgroundBorderWidth: 15,
+    //         percent: 70
+    //       });
+    //     }
+    //   },
+    //   {
+    //     selector: '#skills', offset: 140, callback: function (el) {
+    //       $("#circleHTTP").circliful({
+    //         text: "SQL",
+    //         animationStep: 5,
+    //         foregroundBorderWidth: 5,
+    //         backgroundBorderWidth: 15,
+    //         percent: 50,
+    //         targetTextSize:17,
+    //         // animateInView: true
+    //         title : "test"
+    //       });
+    //     }
+    //   },
+    // ];
+    // Materialize.scrollFire(options);
 
 
 
